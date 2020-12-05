@@ -38,9 +38,9 @@ class WafvelChannel
 
         $webhookData = $notification->toWafvel($notifiable)->toArray();
 
-        $token = Arr::get($webhookData, 'token' , env('WAFVEL_BOT_TOKEN'));
-        $phone = Arr::get($webhookData, 'phone');
-        $message = Arr::get($webhookData, 'message');
+        $token = Arr::get($webhookData, 'token' , env('WAFVEL_BOT_TOKEN',null));
+        $phone = Arr::get($webhookData, 'phone', null);
+        $message = Arr::get($webhookData, 'message','Test Message');
                 
         $response = $this->client->post($url, [
             'json' => [
