@@ -47,9 +47,9 @@ class ProjectCreated extends Notification
 
 ### Available methods
 
-- `token('')`: Accepts a JSON-encodable value for the Webhook body.
-- `phone('')`: Accepts an associative array of query string values to add to the request.
-- `message('')`: Accepts a string value for the Webhook user agent.
+- `token('')`: Accepts a token from wafvel.com
+- `phone('')`: Accepts a recipient phone number 
+- `message('')`: Accepts a string value for the message
 
 ## Security
 
