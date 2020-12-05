@@ -1,6 +1,6 @@
 {
     "name": "randhipp/wafvel-notification",
-    "description": "Whatsapp Notification using wafvel.com - PHP & Laravel",
+    "description": "Laravel Notification Channel - Whatsapp chat - using POST request to wafvel.com API",
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.2",

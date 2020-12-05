@@ -47,7 +47,7 @@ class ProjectCreated extends Notification
 
 ### Available methods
 
-- `token('')`: Accepts a token from wafvel.com
+- `token('')`: Accepts a token from wafvel.com - [register free!](https://wafvel.com/register)
 - `phone('')`: Accepts a recipient phone number 
 - `message('')`: Accepts a string value for the message
 
