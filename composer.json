@@ -1,5 +1,5 @@
 {
-    "name": "randhi/wafvel-notification",
+    "name": "randhipp/wafvel-notification",
     "description": "Whatsapp Notification using wafvel.com - PHP & Laravel",
     "type": "library",
     "require": {

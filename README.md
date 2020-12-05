@@ -7,7 +7,7 @@ This package makes it easy to send whatsapp using the Laravel notification syste
 You can install the package via composer:
 
 ``` bash
-composer require randhi/wafvel-notification
+composer require randhipp/wafvel-notification
 ```
 
 ## Usage
