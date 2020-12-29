@@ -3,10 +3,7 @@
     "description": "Laravel Notification Channel - Whatsapp chat - using POST request to wafvel.com API",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.2",
-        "php": ">=7.2.5",
-        "illuminate/notifications": "^7.0.0",
-        "illuminate/support": "^7.0.0"
+        "laravel/framework": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.3",
